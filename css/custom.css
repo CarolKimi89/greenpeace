@@ -1,0 +1,155 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+}
+
+/*.greenpeace-logo {*/
+ width: 25%;
+ height: auto;          
+}
+
+
+ul.nav {
+  font-family: 'Kanit', sans-serif;
+  color: white; 
+  font-size: 13px;;    
+}
+
+.active a:hover{
+    text-decoration: none;
+    opacity: .8;
+}
+
+footer {
+    background-image: linear-gradient(rgba(4, 77, 41, 0.5), rgba(22, 128, 57, 0.9)),
+        url(../images/tsaiga-26245-unsplash.jpg);
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+#get-involved {
+    background-color: #f5f5f5;
+}
+
+.jumbotron {
+    text-align: center;
+    background: linear-gradient(rgba(4, 77, 41, 0.5), rgba(22, 128, 57, 0.3)),
+        url(../images/tsaiga-26245-unsplash.jpg);
+    background-size: cover;
+}
+
+.jumbotron h1 {
+    margin-top: 0;
+    margin-bottom: 50px;
+    font-family: 'Kanit', sans-serif;
+    color: white;
+}
+
+.jumbotron p{
+    margin-bottom: 30px;
+    color: white;
+    padding: 0 50px;
+    font-size: 31px;    
+}
+
+.btn-lg {
+    font-size: 30px;
+}
+
+.logo {
+    width: 20%;
+}
+
+.emphasis {
+    color: #168039;
+    font-weight: 600;
+}
+
+.homepage {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.homepage h2, .homepage h3 {
+    color:#168039;
+    font-family: 'Kanit', sans-serif;
+    text-transform: uppercase;
+}
+
+.homepage h2 {
+    font-size: 30px;
+}
+
+.homepage h3 {
+    font-size: 26px;
+}
+
+.homepage p {
+    font-size: 21px;
+    font-weight: 300;
+}
+
+.homepage a{
+    color: #168039;
+}
+
+.homepage a:hover {
+    color:#168039;
+    text-decoration: none;
+    opacity: .8;
+}
+
+.homepage hr{
+    border-top: 1px solid #168039;
+    width: 140px;
+    margin-top: 15px;
+}
+
+/*Responsive Styling - Media Queries */
+@media (max-width: 1199px) {
+
+    .jumbotron h1 {
+        font-size: 56px;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 991px) {
+
+    .jumbotron h1 {
+        font-size: 44px;
+    }
+    
+    .jumbotron p {
+        padding: 0 10px;
+    }
+    
+    #get-involved .col-md-4 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .jumbotron h1 {
+        font-size: 30px;
+    }
+    
+    .jumbotron p {
+        font-size: 20px;
+        padding: 0;
+    }
+    
+    .btn-lg {
+        font-size: 18px;
+    }
+    
+    .homepage p {
+        font-size: 18px;
+    }
+    footer img {
+        width: 80%;
+    }
+}
